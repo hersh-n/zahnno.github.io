@@ -4,7 +4,7 @@
  
 @apiGroup Taxonomies
 
-@api {get} localhost:8000/api/taxonomies Request Taxonomies information
+@api {get} localhost:8000/api/taxonomies Request Taxonomies
 
 @apiHeaderExample Header-Example: 
   X-Spree-Token : {{admin_token}}
@@ -22,7 +22,7 @@
  
 @apiGroup Taxonomies
 
-@api {get} localhost:8000/api/taxonomies/:id/taxons Request Taxon information
+@api {get} localhost:8000/api/taxonomies/:id/taxons Request Taxon
 
 @apiHeaderExample Header-Example: 
   X-Spree-Token : {{admin_token}}
